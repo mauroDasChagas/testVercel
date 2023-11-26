@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+  
+#map-container {
+    width: 70%;
+    box-sizing: border-box;
+}
+  
+#info-container {
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+  
+#map {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+#map td {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+}
+  
+#map td.destacado {
+    background-color: #ff1814;
+}
+  
+#hospitalMap {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+#hospitalMap div {
+    border: 1px solid #ddd;
+}
+  
+#hospitalMap div.destacado {
+    background-color: #ff1814;
+}
+  
+canvas {
+    border: 1px solid #000;
+}
